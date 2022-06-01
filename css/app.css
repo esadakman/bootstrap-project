@@ -2,59 +2,94 @@
   --red: #dc3545;
 }
 
-/*! --------------- 1- NAVBAR ------------------ */
-
-/*! --------------- 2- CAROUSEL ---------------- */
-
-.carousel-inner {
-  height: 100vh;
+/*! ---------------------- 1- NAVBAR ----------------------------- */
+.navbar-light {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(59, 59, 59);
+  transition: color 1s;
 }
 
-.car-1 {
-  background-image: url(../img/slider1.jpg);
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
+.navbar-light .nav-link:hover {
+  color: var(--red);
 }
 
-.car-2 {
-  background-image: url(../img/slider2.jpg);
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
+/*! ---------------------- 2- CAROUSEL ----------------------------- */
+.carousel-item {
+  border: 3px solid green;
+  max-height: calc(100vh - 88px);
 }
 
-.car-3 {
-  background-image: url(../img/slider3.jpg);
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
+.carousel-item h1 {
+  color: var(--red);
+  text-shadow: 2px 2px 2px black;
+}
+
+.carousel-item p {
+  color: white;
+  font-weight: 500;
+}
+
+.carousel-item .buttons .btn {
+  width: 7rem;
+  margin-bottom: 1rem;
+
+}
+
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.5rem !important;
+  width: 3rem !important;
+  margin-right: 0.7rem !important;
 }
 
 .carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
+  bottom: 5rem;
+  /*  20vh */
 }
 
-.carousel-caption button {
-  width: 7rem;
+/*! ------------------- 3- ABOUT SECTION ------------------------ */
+
+/*! ------------------- 4- INSTRUCTORS ------------------------ */
+section#instructors .socials i {
+  transition: opacity 1s;
 }
 
-.carousel-indicators {
-  top: 70%;
-  transform: translateY(-50%);
-  bottom: initial;
+section#instructors .socials i:hover {
+  opacity: 0.5;
 }
 
-/*! --------------- 3- ABOUT SECTION ----------- */
+section#instructors .card {
+  transition: transform 1s;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
 
 
 
-/*! ------------ 4- STUDENTS SECTION ----------- */
+/*! ------------------- 4- STUDENTS SECTION ------------------------ */
 
-/*! ------------ 5- COURSES SECTION ------------- */
+/*! ------------------- 5- COURSES SECTION ------------------------ */
+.nav-tabs {
+  border: none;
+}
 
-/*! ------------ 6- CONTACT SECTION ------------ */
+.nav-tabs .nav-link.active {
+  background-color: #bb2d3b;
+  border: none;
+}
 
-/*! ---------------- 7- FOOTER --------------- */
+.tab-content img {
+  max-width: 100%;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+/*! ------------------- 6- CONTACT SECTION ------------------------ */
+
+/** ------------------- UP-BUTTON --------------------- */
+
+/*! -------------------- 7- FOOTER ------------------------ */
