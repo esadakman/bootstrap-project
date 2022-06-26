@@ -8,3 +8,5 @@
 - I used <strong>fslightbox</strong> plugin to create pop-ups for some images.
 
 [Click Here!](https://esadakman.github.io/bootstrap-project/)
+
+<img  src="./img/gif.gif" alt="gif" />
