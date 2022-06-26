@@ -2,7 +2,6 @@
 
 # Description
 ## This website is made with <strong>Bootstrap</strong>.
-
 - I used Bootstrap <strong>Navbar</strong> component to create a simple collapsable navbar.
 - I used <strong>Carousel</strong> component to make a beautifull slider.
 - I used <strong>Card</strong> component to create some images with texts.
