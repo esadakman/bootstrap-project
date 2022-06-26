@@ -1,4 +1,4 @@
-# bootstrap-project
+# Bootstrap Landing Page
 
 ## Description
 ### This website is made with <strong>Bootstrap</strong>.
