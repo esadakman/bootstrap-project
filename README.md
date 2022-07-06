@@ -7,6 +7,6 @@
 - I created <strong>form</strong> element using Bootstrap.
 - I used <strong>fslightbox</strong> plugin to create pop-ups for some images.
 
-[Click Here!](https://esadakman.github.io/bootstrap-project/)
+[Click Here!](https://esadakman.github.io/bootstrap-landing-page/)
 
 <img  src="./img/gif.gif" alt="gif" />
